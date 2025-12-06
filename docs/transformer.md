@@ -869,3 +869,9 @@ if __name__ == '__main__':
 
 ```
 
+
+
+# 三、参考
+
+[68 Transformer【动手学深度学习v2】_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Kq4y1H7FL/?spm_id_from=333.1387.search.video_card.click&vd_source=6d7dc2c06bc4259ac0e431a2824dbf9d)
+
