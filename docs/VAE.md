@@ -373,3 +373,10 @@ if __name__ == '__main__':
 
 ```
 
+
+
+# 三、参考
+
+[变分自编码器（一）：原来是这么一回事 - 科学空间|Scientific Spaces](https://spaces.ac.cn/archives/5253)
+
+[变分自编码器（二）：从贝叶斯观点出发 - 科学空间|Scientific Spaces](https://spaces.ac.cn/archives/5343)
