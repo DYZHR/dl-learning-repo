@@ -16,6 +16,25 @@
 
 
 
+# tokenizer
+
+tokenizer用于将文本转化成词典序号和掩码，不同的tokenizer对应的词典和转换后的掩码有所不同。
+
+```python
+from transformers import AutoTokenizer
+
+# 根据任务类型选择对应的tokenizer，模型和tokenizer都用同一个model_name，如果不同需要能兼容，例如tokenizer = AutoTokenizer.from_pretrained("gpt2") && model = AutoModel.from_pretrained("gpt1")
+model_name = ...
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+text = ...	# 文本
+
+input_ids = tokenizer.encode(text)	# 得到词典序号的列表
+inputs = tokenizer(text)	# 得到input_ids, attention_mask, token_type_ids等组成的列表
+```
+
+
+
 # 常用模型加载类
 
 1. `AutoModel`
